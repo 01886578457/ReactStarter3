@@ -6,7 +6,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
         return <VideoItem key={video.id.videoId} video={video} onVideoSelect={onVideoSelect} />
     })
     return (
-        <div className="ui relaxed divided list">
+        <div className="ui segment divided list">
             {renderList}
         </div>
     );
