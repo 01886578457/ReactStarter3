@@ -4,10 +4,10 @@ const KEY = "AIzaSyB6wfdVZlKUSJ9DAbzycX-i3PHENGoqz5o";
 
 export default axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3',
-    params:{
+    params: {
         part: 'snippet',
         maxResults: 5,
-        keys: KEY
+        key: KEY
     }
 })
 
